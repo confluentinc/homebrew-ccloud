@@ -1,8 +1,8 @@
 class Ccloud < Formula
   desc 'Confluent Cloud CLI tool'
   homepage 'https://www.confluent.io/confluent-cloud/'
-  url 'https://s3-us-west-2.amazonaws.com/confluent.cloud/cli/ccloud-0.1.4.tar.gz'
-  sha256 'ba9794d44445bcd82990c65c90e620415678c19db1e9ffac9f40de062d78b244'
+  url 'https://s3-us-west-2.amazonaws.com/confluent.cloud/cli/ccloud-0.1.6.tar.gz'
+  sha256 'bd62316c037d837895e748e562967f5f3e0242caa9dfb3d3466f03afa655ddb2'
 
   depends_on :java
 
