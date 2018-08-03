@@ -1,9 +1,9 @@
 class ConfluentCli < Formula
   desc "Confluent CLI"
   homepage "https://confluent.io"
-  url "https://github.com/confluentinc/cli/releases/download/v0.15.0/confluent-cli_0.15.0_Darwin_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "0.15.0"
-  sha256 "948b0f6ddfcc4b612b75f4ad92e7d1e3266c8423eb17937f932c2113fda569b2"
+  url "https://github.com/confluentinc/cli/releases/download/v0.16.0/confluent-cli_0.16.0_Darwin_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "0.16.0"
+  sha256 "e0137019726db31e406de614257ba71806d9edf2b5a42320b3b10d91d4231fe1"
 
   def install
     bin.install "confluent"
